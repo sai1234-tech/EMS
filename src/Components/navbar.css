@@ -1,0 +1,361 @@
+#navbarcontainer{
+    width: 100%;
+    position: absolute;  
+    border: 2px solid red;
+}
+#navbarcontainer::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.pos-f-t{
+    position:absolute;
+    overflow: hidden;
+    float:left;
+    left:17.864%;
+    width:82.1354%;
+}
+
+.sideNavbar{
+    position: absolute;
+    left:0px;
+    background-color: #343a40 !important;
+    color: white;
+    float: left;
+    width:15vw;
+}
+/* ********* Start forward movement *********** */
+/* .moveElement{
+    animation-duration: 1s;
+    animation-name: move;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{left:0px}
+    
+    100%{left:-17.864%}
+}
+.incElement{
+    animation-duration: 1s;
+    animation-name: incElement;
+    animation-fill-mode: forwards;
+}
+@keyframes incElement{
+    
+    100%{left:0%; width:100%};
+} */
+/* ********* End Forward movement *********** */
+/* ********* Start reverse movement *********** */
+/* .reverseMoveElement{
+    animation-duration: 1s;
+    animation-name: reverseMove;
+    animation-fill-mode: forwards;
+}
+@keyframes reverseMove {
+    0%{left:-17.864%}
+    100%{left:0px}
+}
+.reverseIncElement{
+    animation-duration: 1s;
+    animation-name: reverseIncElement;
+    animation-fill-mode: forwards;
+}
+@keyframes reverseIncElement{
+    0%{left:0%; width:100%}
+    100%{left:17.864%; width:82.1354%}
+} */
+/* ********* end reverse movement *********** */
+ul li{
+    list-style-type: none;
+}
+
+/* #fit{
+    width:100% !important; 
+    right: -25% !important;
+
+} */
+
+#place form{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+#fit{
+    width:125%;
+}
+
+
+/* my cd */
+
+
+.navbar{
+    background: #383B3C;
+    /* background-color: #343a40 !important; */
+
+    /* background: #3c3b38;    */
+    height:4.16666vw;
+}
+#navbarcontainer{
+    width: 100%;
+    position: absolute;  
+    border: 2px solid red;
+}
+#navbarcontainer::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.navbar-toggler{
+    margin-left:1.289vw;;
+    color:white;
+}
+
+.pos-f-t{
+    position:absolute;
+    overflow: hidden;
+    float:left;
+    /* left:17.864%; */
+    left:14.98vw;
+    width:85%;
+}
+
+.sideNavbar{
+    position: absolute;
+    left:0px;
+    background: #383B3C;
+    /* background-color: #343a40 !important; */
+    color: white;
+    float: left;
+    /* width:283px; */
+    /* width:14.7395833vw; */
+    height:100vh;
+    /* width:17.864%; */
+    /* width:82.1354%; */
+
+}
+/* ********* Start forward movement *********** */
+.moveElement{
+    animation-duration: 1s;
+    animation-name: move;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{left:0px}
+    
+    100%{left:-15vw}
+}
+.incElement{
+    animation-duration: 1s;
+    animation-name: incElement;
+    animation-fill-mode: forwards;
+}
+@keyframes incElement{
+    
+    100%{left:0%; width:100%};
+} 
+/* ********* End Forward movement *********** */
+/* ********* Start reverse movement *********** */
+.reverseMoveElement{
+    animation-duration: 1s;
+    animation-name: reverseMove;
+    animation-fill-mode: forwards;
+}
+@keyframes reverseMove {
+    0%{left:-15vw}
+    100%{left:0px}
+}
+.reverseIncElement{
+    animation-duration: 1s;
+    animation-name: reverseIncElement;
+    animation-fill-mode: forwards;
+}
+@keyframes reverseIncElement{
+    0%{left:0%; width:100%}
+    100%{left:15vw; width:85%}
+}
+
+/* ********* end reverse movement *********** */
+
+ul li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+
+}
+li a :hover{
+    color: white;
+}
+
+/* #fit{
+    width:100% !important; 
+    right: -25% !important;
+
+} */
+
+#place form{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+#fit{
+    width:125%;
+}
+.sidebar-header{
+    background-color:white;
+    /* width:14.739vw; */
+        /* width:283px; */
+}
+.new{
+/* color: #7D7D7D; */
+border: 1px solid #7D7D7D;
+}
+.news{
+    display:flex;
+    /* position: absolute; */
+    margin-top:2vw;
+    border: 1px solid #7D7D7D;
+    /* width:190px; */
+}
+.ems{
+    height:4.16666vw;
+    position: relative;
+    display: flex;
+    left:3.177vw;
+    /* width:10.98958vw; */
+    width:auto;
+    /* top:-20px; */
+    /* background-color: red;; */
+
+}
+
+li a{
+    color:#FFFFFF;
+   
+}
+.dash{
+    color:#FFFFFF;
+    font-weight:400;
+    /* padding-top:1vw; */
+    padding-left:3.125vw;
+    padding-bottom:1.25vw;
+    /* padding:10px; */
+    font-size:1.041666vw;
+    height:0.52083vw;;
+    display:flex;
+    /* cc */
+    position: relative;
+    left:-0px;
+    line-height:1.25vw;
+    /* font-family: 'Montserrat'; */
+font-style: normal;
+}
+
+.wel{
+    position: absolute;
+    left:1vw;
+}
+.tg1{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    position: absolute;
+    /* left:13vw; */
+
+    transform: translate(1280%,100%);
+  }
+  .tg2{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    display: flex;
+    position: relative;;
+    /* top:5px; */
+    transform: translate(1200%,100%);
+  }
+  .tg3{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    display: flex;
+    position: relative;;
+    /* top:5px; */
+    transform: translate(300%,90%);
+  }
+  .tg4{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    display: flex;
+    position: relative;;
+    /* top:5px; */
+    transform: translate(1000%,100%);
+  }
+  .tg5{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    display: flex;
+    position: relative;;
+    /* top:5px; */
+    transform: translate(1480%,100%);
+  }
+  .tg6{
+    height:0.55260416666vw;
+    width:0.368229166vw;
+    display: flex;
+    position: relative;;
+    transform: translate(1630%,100%);
+  }
+
+.navbar-toggler-icon{
+    color:#FFFFFF;
+    position: absolute;
+    left:1.289vw;
+}
+  .user_img_top_nav{
+    position: absolute;
+    right: 15vw;
+    height:1vw;
+    width:1vw;
+    top:1.5625vw;
+  }
+  .v2{
+    border-left:2px solid #46607E;
+    right:17.5vw;
+    border-left:2px solid #46607E;
+    height:54px;
+    position:absolute;
+    /* left:80vw; */
+    top:-0.5px; 
+    /* right:6.32229166vw; */
+}
+  .user_name{
+    position: absolute;
+    right: 12.46vw;
+    top:1.328vw;
+    width:0.625vw;
+    height:0.625vw;
+    color:#FFFFFF;
+    font-size: 1.25vw;;
+    font-weight: 400;;
+}
+.poly_img_top_nav{
+    position: absolute;
+    right: 7.45vw;
+    top:1.77vw;
+    width:0.625vw;
+    height:0.625vw;
+}
+.v1{
+    border-left:2px solid #46607E;
+    height:54px;
+    position:absolute;
+    /* left:80vw; */
+    top:-0.5px; 
+    right:6.32229166vw;
+}
+
+.lock_img_top_nav{
+    position: absolute;
+    right: 3.38541666vw;
+    top:1.3671vw;
+    width:1vw;
+    height:1.3671875vw;
+}
